@@ -93,21 +93,21 @@
 |---|---|---|---|
 | Payment Type | Payment Process | Payment Process (Alt) | Payment Summary |
 
-| ![payment_success.png](screenshots/payment_success.png) |
+| ![payment_success.png](screenshots/payment_success.png) | | ![order_success.png](screenshots/order_success.png) |
 |---|
-| Payment Success |
+| Payment Success | | Order Success |
 
 ---
 
 ### 5️⃣ Order Placement & Details
 
-| ![product_order.png](screenshots/product_order.png) | ![order.png](screenshots/order.png) | ![order_details.png](screenshots/order_details.png) | ![oder_detail.png](screenshots/oder_detail.png) |
+| ![product_order.png](screenshots/product_order.png) | ![order.png](screenshots/order.png) | ![order_details.png](screenshots/order_details.png) | ![order_detail.png](screenshots/order_detail.png) |
 |---|---|---|---|
 | Product Order | Order List | Order Details | Order Detail (Alt) |
 
-| ![order_success.png](screenshots/order_success.png) |
-|---|
-| Order Success |
+
+
+
 
 ---
 
