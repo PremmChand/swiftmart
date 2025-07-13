@@ -49,43 +49,45 @@
 
 > ## Screenshots
 
-### 1. User Flow & Payment Screenshots
+### 1. User Flow 
+![login.png](screenshots/login.png) | ![register.png](screenshots/register.png) |
+| 
+### 2. Admin & Product Management Screenshots
+| ![admin_add_product.png](screenshots/admin_add_product.png) | ![admin_display_order.png](screenshots/admin_display_order.png) |
 
-| ![add_fund.png](screenshots/add_fund.png) | ![add_payment_method.png](screenshots/add_payment_method.png) | ![add_payment_method_1.png](screenshots/add_payment_method_1.png) | ![payment_method.png](screenshots/payment_method.png) |
+
+### 3. User  & Product Management Screenshots
+| ![user_home.png](screenshots/user_home.png) | ![user_home_1.png](screenshots/user_home_1.png) | ![user_info.png](screenshots/user_info.png) | | ![favorite_product.png](screenshots/favorite_product.png) 
+|---|---|---|---|
+ 
+| User Home | User Home (Alt) | User Info | | Favorite Product
+
+
+### 4. Product details & Payment Type Screenshots
+| ![product_category.png](screenshots/product_category.png) | ![product_detail.png](screenshots/product_detail.png) | ![payment_type.png](screenshots/payment_type.png) | | ![product_cart.png](screenshots/product_cart.png)
+|---|---|---|---|
+ | Product Category | Product Detail |  Payment Type |  Product Cart |
+
+
+### 5. Payment details Screenshots
+| ![add_fund.png](screenshots/add_fund.png) | ![add_payment_method.png](screenshots/add_payment_method.png) | ![add_payment_method_1.png](screenshots/add_payment_method_1.png) | ![payment_method.png](screenshots/payment_method.png) | ![payment_process.png](screenshots/payment_process.png)
 |---|---|---|---|
 | Add Fund | Add Payment Method | Add Payment Method (Alt) | Payment Method |
 
-| ![payment_process.png](screenshots/payment_process.png) | ![payment_process_1.png](screenshots/payment_process_1.png) | ![payment_success.png](screenshots/payment_success.png) | ![payment_type.png](screenshots/payment_type.png) |
+|  | ![payment_process_1.png](screenshots/payment_process_1.png) | ![payment.png](screenshots/payment.png) | ![payment_success.png](screenshots/payment_success.png) | ![order_success.png](screenshots/order_success.png)
 |---|---|---|---|
-| Payment Process | Payment Process (Alt) | Payment Success | Payment Type |
+| Payment Process | Payment Process (Alt) | Payment Success |
 
-| ![payment.png](screenshots/payment.png) | ![order.png](screenshots/order.png) | ![order_success.png](screenshots/order_success.png) | ![order_details.png](screenshots/order_details.png) |
+### 5. Order details Screenshots
+
+| ![product_order.png](screenshots/product_order.png) | [order.png](screenshots/order.png)   
+| ![order_details.png](screenshots/order_details.png) | ![order_detail.png](screenshots/order_detail.png) |
+
 |---|---|---|---|
-| Payment Screen | Order Screen | Order Success | Order Details |
-
-### 2. Admin & Product Management Screenshots
-
-| ![admin_add_product.png](screenshots/admin_add_product.png) | ![admin_display_order.png](screenshots/admin_display_order.png) | ![product_category.png](screenshots/product_category.png) | ![product_detail.png](screenshots/product_detail.png) |
-|---|---|---|---|
-| Admin Add Product | Admin View Orders | Product Category | Product Detail |
-
-| ![product_cart.png](screenshots/product_cart.png) | ![product_cart_1.png](screenshots/product_cart_1.png) | ![product_cart_2.png](screenshots/product_cart_2.png) | ![product_order.png](screenshots/product_order.png) |
-|---|---|---|---|
-| Product Cart | Product Cart (Alt 1) | Product Cart (Alt 2) | Product Order |
-
-| ![favorite_product.png](screenshots/favorite_product.png) | ![favorite_product_1.png](screenshots/favorite_product_1.png) | ![login.png](screenshots/login.png) | ![register.png](screenshots/register.png) |
-|---|---|---|---|
-| Favorite Product | Favorite Product (Alt) | Login | Register |
-
-| ![register_1.png](screenshots/register_1.png) | ![user_home.png](screenshots/user_home.png) | ![user_home_1.png](screenshots/user_home_1.png) | ![user_info.png](screenshots/user_info.png) |
-|---|---|---|---|
-| Register (Alt) | User Home | User Home (Alt) | User Info |
+| Order Screen | Product Order | Order Details |
 
 
----
 
-
-## 🧪 How to Run the Project
 
 1. **Clone the repository**  
    ```bash

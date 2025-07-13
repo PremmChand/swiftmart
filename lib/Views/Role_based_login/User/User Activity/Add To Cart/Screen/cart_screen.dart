@@ -6,10 +6,11 @@ import 'package:swiftmart/Provider/cart_provider.dart';
 import 'package:swiftmart/Common/Utils/colors.dart';
 import 'package:swiftmart/Views/Role_based_login/User/User%20Activity/Add%20To%20Cart/Widgets/cart_items.dart';
 import 'package:dotted_line/dotted_line.dart';
-import 'package:swiftmart/Views/Role_based_login/User/User%20Profile/Order/my_order_screen.dart';
 import 'package:swiftmart/Views/Role_based_login/User/User%20Profile/Order/order_success_screen.dart';
 import 'package:swiftmart/Widgets/show_snackbar.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class CartScreen extends ConsumerStatefulWidget {
   const CartScreen({super.key});
@@ -24,7 +25,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
   
   TextEditingController addressController = TextEditingController();
   late Razorpay _razorpay;
-
+  final razorpayKey = dotenv.env['RAZORPAY_KEY_ID'];
   @override
   void initState() {
     super.initState();
@@ -56,7 +57,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
 
   void _startRazorpayPayment(double amount) {
     var options = {
-      'key': 'rzp_test_NFScMPmb7mMswP',
+      'key':razorpayKey,
       'amount': (amount * 100).toInt(),
       'name': 'SwiftMart',
       'description': 'Order Payment',

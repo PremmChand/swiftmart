@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:swiftmart/Common/Utils/cart_order_count.dart';
@@ -31,8 +32,9 @@ class ItemDetailScreenState extends ConsumerState<ItemDetailScreen> {
   String? selectedPaymentMethodId;
   double? selectedPaymentBalance;
   late Razorpay _razorpay;
+  final razorpayKey = dotenv.env['RAZORPAY_KEY_ID'];
   Map<String, dynamic>? _pendingOrderData;
-  @override
+   
   void initState() {
     super.initState();
     _razorpay = Razorpay();
@@ -514,8 +516,7 @@ class ItemDetailScreenState extends ConsumerState<ItemDetailScreen> {
                               // Razorpay online payment
                               if (selectedPaymentMethodId == "online") {
                                 var options = {
-                                  'key':
-                                      'rzp_test_NFScMPmb7mMswP', // Replace with your key
+                                  'key':razorpayKey, // Replace with your key
                                   'amount': (finalPrice * 100).toInt(), // paise
                                   'name': 'SwiftMart',
                                   'description': 'Order Payment',
