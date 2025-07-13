@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "593882860719",
+    "project_id": "clickcart3-60d67",
+    "storage_bucket": "clickcart3-60d67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593882860719:android:bc18a62d4373ebbc54985a",
+        "android_client_info": {
+          "package_name": "com.example.swiftmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBKAK_NU2S5TJVv16VCC52V6sMTJJJkXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

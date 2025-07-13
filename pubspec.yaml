@@ -1,0 +1,82 @@
+name: swiftmart
+description: "An e-commerce Flutter project with Firebase integration."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0-171.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  iconsax_plus: ^1.0.0
+  iconsax: ^0.0.8
+  google_fonts: ^6.2.1
+  dotted_line: ^3.2.3
+  cached_network_image: ^3.4.1
+
+  # Firebase
+  firebase_core: ^3.14.0
+  cloud_firestore: ^5.6.9
+  firebase_auth: ^5.6.0
+  firebase_storage: ^12.4.7
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Utilities
+  image_picker: ^1.1.2
+  mask_text_input_formatter: ^2.9.0
+  http: ^1.4.0
+  flutter_dotenv: ^5.2.1
+  file_picker: ^10.2.0
+  intl: ^0.18.1
+  razorpay_flutter: ^1.4.0
+  flutter_svg: ^2.0.7
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/user_login.jpeg
+    - assets/signup.jpeg
+    - assets/sign_up.jpeg
+    - assets/cart_logo.jpeg
+    - assets/cartt.jpeg
+    - assets/logo2.jpeg
+    - assets/girl.jpeg
+    - assets/girl1.jpeg
+    - assets/girl2.jpeg
+    - assets/girl.png
+    - assets/women.jpeg
+    - assets/men.jpeg
+    - assets/teens.jpeg
+    - assets/kids.jpeg
+    - assets/baby.jpeg
+    - assets/category_image/women.jpeg
+    - assets/category_image/hoody.jpeg
+    - assets/category_image/jacket.jpeg
+    - assets/category_image/baby1.jpeg
+    - assets/category_image/kids1.jpeg
+    - assets/category_image/women2.jpeg
+    - assets/category_image/women3.jpeg
+    - assets/category_image/hoody1.jpeg
+    - assets/category_image/hoody2.jpeg
+    - assets/category_image/sub_category/bag.jpeg
+    - assets/category_image/sub_category/wallet.jpeg
+    - assets/category_image/sub_category/footwear.jpeg
+    - assets/category_image/sub_category/cloth.jpeg
+    - assets/category_image/sub_category/watch.jpeg
+    - assets/category_image/sub_category/makeup.jpeg
+    
