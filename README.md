@@ -93,9 +93,10 @@
 |---|---|---|---|
 | Payment Type | Payment Process | Payment Process (Alt) | Payment Summary |
 
-| ![payment_success.png](screenshots/payment_success.png) | | ![order_success.png](screenshots/order_success.png) |
-|---|
-| Payment Success | | Order Success |
+| ![payment_success.png](screenshots/payment_success.png) | ![order_success.png](screenshots/order_success.png) |
+|---|---|
+| Payment Success | Order Success |
+
 
 ---
 
